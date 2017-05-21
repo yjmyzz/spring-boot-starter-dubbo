@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.3.6.RELEASE</version>
+        <version>1.5.3.RELEASE</version>
     </parent>
 
     <groupId>io.dubbo.springboot</groupId>
@@ -17,15 +17,15 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.7</java.version>
-        <spring-boot.version>1.3.6.RELEASE</spring-boot.version>
-        <version.compiler-plugin>3.5.1</version.compiler-plugin>
-        <version.source-plugin>2.2.1</version.source-plugin>
+        <java.version>1.8</java.version>
+        <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+        <version.compiler-plugin>3.6.0</version.compiler-plugin>
+        <version.source-plugin>3.0.1</version.source-plugin>
         <version.javadoc-plugin>2.9.1</version.javadoc-plugin>
-        <version.maven-gpg-plugin>1.5</version.maven-gpg-plugin>
+        <version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <developers>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
-            <version>0.7</version>
+            <version>0.10</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
